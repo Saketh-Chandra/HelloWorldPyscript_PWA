@@ -1,9 +1,9 @@
-const staticfilesPWA = "v1.0"
+const staticfilesPWA = "StaticFiles_v1.0-alpha"
 const assets = [
     "/",
     "/static/js/app.js",
-    "/static/images/icons/hello_64.png",
     "/static/images/icons/hello_192.png",
+    "/static/images/icons/hello_64.png",
     "/static/images/icons/hello_512.png",
 
     //bootstrap
