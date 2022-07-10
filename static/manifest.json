@@ -1,0 +1,20 @@
+{
+  "name": "Hello World Pyscript PWA",
+  "short_name": "HelloWorldPyscript_PWA",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#000",
+  "background_color": "#3367D6",
+  "icons": [
+    {
+      "src": "/static/images/icons/hello_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/static/images/icons/hello_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
