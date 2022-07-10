@@ -1,10 +1,12 @@
-const staticfilesPWA = "StaticFiles_v1.0-alpha"
+const GHPATH = '/HelloWorldPyscript_PWA'
+const staticfilesPWA = "StaticFiles_v1-alpha"
+
 const assets = [
-    "/",
-    "/static/js/app.js",
-    "/static/images/icons/hello_192.png",
-    "/static/images/icons/hello_64.png",
-    "/static/images/icons/hello_512.png",
+    `${GHPATH}/`,
+    `${GHPATH}/static/js/app.js`,
+    `${GHPATH}/static/images/icons/hello_192.png`,
+    `${GHPATH}/static/images/icons/hello_64.png`,
+    `${GHPATH}/static/images/icons/hello_512.png`,
 
     //bootstrap
     "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css",
@@ -23,9 +25,8 @@ const assets = [
     "https://cdn.jsdelivr.net/pyodide/v0.20.0/full/distutils.tar",
 
     //pyscript
-    "/static/css/pyscript.css",
-    "/static/js/pyscript.js",
-
+    `${GHPATH}/static/css/pyscript.css`,
+    `${GHPATH}/static/js/pyscript.js`,
 ]
 
 
